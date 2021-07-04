@@ -2,16 +2,6 @@ apiVersion: v1
 entries:
   nydus:
   - apiVersion: v2
-    appVersion: 0.1.3
-    created: "2021-07-04T16:06:08.18140854Z"
-    description: A Helm chart for Kubernetes
-    digest: 7f4600bb903475f17bb5cbc458d4259c81fcb9618b188dd2c6392b6930cab50c
-    name: nydus
-    type: application
-    urls:
-    - https://kineung-us.github.io/nydus/nydus-0.1.3.tgz
-    version: 0.1.3
-  - apiVersion: v2
     appVersion: 0.1.2
     created: "2021-07-04T16:06:08.180923831Z"
     description: A Helm chart for Kubernetes
