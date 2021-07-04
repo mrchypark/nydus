@@ -2,3 +2,4 @@ apiVersion: v2
 name: nydus
 description: A Helm chart for Kubernetes
 type: application
+version: "default"
