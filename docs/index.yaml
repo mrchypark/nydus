@@ -2,43 +2,53 @@ apiVersion: v1
 entries:
   nydus:
   - apiVersion: v2
-    appVersion: 0.1.2
-    created: "2021-06-13T09:10:57.082035+09:00"
+    appVersion: 0.1.3
+    created: "2021-07-04T16:06:08.18140854Z"
     description: A Helm chart for Kubernetes
-    digest: 6aefe5962d99f7b5f96a9382c1027bd3ad9109982785a7175d7f94dd6795c895
+    digest: 7f4600bb903475f17bb5cbc458d4259c81fcb9618b188dd2c6392b6930cab50c
     name: nydus
     type: application
     urls:
-    - nydus-0.0.5.tgz
+    - https://kineung-us.github.io/nydus/nydus-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2021-07-04T16:06:08.180923831Z"
+    description: A Helm chart for Kubernetes
+    digest: 3d4e0aa6a2d4839d87622cb86a8ddb81f8d79ce098f064258b5c8dba84c4171a
+    name: nydus
+    type: application
+    urls:
+    - https://kineung-us.github.io/nydus/nydus-0.0.5.tgz
     version: 0.0.5
   - apiVersion: v2
     appVersion: 0.0.11
-    created: "2021-06-13T09:10:57.081233+09:00"
+    created: "2021-07-04T16:06:08.180442723Z"
     description: A Helm chart for Kubernetes
     digest: 66d21efcf031f5656df98b36a64bab9155a1ae263ad22934736dee50d035cb07
     name: nydus
     type: application
     urls:
-    - nydus-0.0.4.tgz
+    - https://kineung-us.github.io/nydus/nydus-0.0.4.tgz
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.11
-    created: "2021-06-13T09:10:57.080668+09:00"
+    created: "2021-07-04T16:06:08.180016816Z"
     description: A Helm chart for Kubernetes
     digest: a593e42d8103c5e933a1173dba135ac99597a7599380f0f74a61dbbab8500e24
     name: nydus
     type: application
     urls:
-    - nydus-0.0.3.tgz
+    - https://kineung-us.github.io/nydus/nydus-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.9
-    created: "2021-06-13T09:10:57.080014+09:00"
+    created: "2021-07-04T16:06:08.179579008Z"
     description: A Helm chart for Kubernetes
     digest: d0ff9620a8939300402ce0092a612a258e94cdb9c16f428290986949432213bd
     name: nydus
     type: application
     urls:
-    - nydus-0.0.2.tgz
+    - https://kineung-us.github.io/nydus/nydus-0.0.2.tgz
     version: 0.0.2
-generated: "2021-06-13T09:10:57.079146+09:00"
+generated: "2021-07-04T16:06:08.178904496Z"
