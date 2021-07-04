@@ -169,15 +169,21 @@ func (p *PublishData) UpdateHost(r string) error {
 	if err != nil {
 		return err
 	}
-	p.Order.URL = setHost(r, t)
+	p.Order.URL = SetHost(r, t)
+	p.Order.URL = URLencode(p.Order.URL)
 	return nil
 }
 
-func setHost(r string, u *url.URL) string {
+func SetHost(r string, u *url.URL) string {
 	t, _ := url.Parse(r)
 	u.Scheme = t.Scheme
 	u.Host = t.Host + t.Path
 	u.Path = strings.ReplaceAll(u.Path, "/publish/"+subTopic, "")
 	h, _ := url.PathUnescape(u.String())
 	return h
+}
+
+func URLencode(h string) string {
+	t, _ := url.Parse(h)
+	return t.Scheme + "://" + t.Host + t.Path + "?" + t.Query().Encode()
 }

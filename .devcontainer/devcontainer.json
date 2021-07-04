@@ -21,6 +21,7 @@
 		"tabnine.tabnine-vscode",
 		"mhutchie.git-graph",
 		"eamodio.gitlens",
+		"humao.rest-client",
 		"ms-azuretools.vscode-dapr"
 	],
 	"containerEnv": {

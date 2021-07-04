@@ -1,0 +1,4 @@
+@host = localhost:5000
+
+### 0. 
+POST http://{{host}}/publish
